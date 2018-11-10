@@ -126,4 +126,12 @@ nav ul li a {
     .menu-icon {
         display: block;
     }
+    .nom {    
+        text-align: center;
+        color: #fff;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        background-color: rgba(0,0,0,0);
+    }
 }
