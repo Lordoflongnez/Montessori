@@ -5,5 +5,8 @@ html, body {
 }
 
 header {
-    background: url(./../img/IMG_3463.JPG) no-repeat 50% 50%;
+    width: 100%;
+    height: 100vh;
+    background: url(../../img/crayons-1209804_1920.jpg) no-repeat 50% 50%;
+    background-size: cover;
 }
