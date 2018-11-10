@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="page4">
+        <header class="page3">
             <nav>
                 <div class="menu-icon">
                     <i class="fa fa-bars fa-2x"></i>
@@ -29,27 +29,28 @@
                 </div>
             </nav> 
         </header> 
-            <script type="text/javascript">
-                
-                // Menu button
-                
-                $(document).ready(function() {
-                    $(".menu-icon").on("click", function() {
-                        $("nav ul").toggleClass("showing");
-                    });
-                });
-                
-                // Scroll
-                
-                $(window).on("scroll", function() {
-                    if($(window).scrollTop()) {
-                        $('nav').addClass('black');
-                    }
-                    
-                    else {
-                        $('nav').removeClass('black');
-                    }
-                }) 
-            </script>
-        </body>
-        </html>
+    </div>
+    <script type="text/javascript">
+        
+        // Menu button
+        
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+        
+        // Scroll
+        
+        $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            
+            else {
+                $('nav').removeClass('black');
+            }
+        }) 
+    </script>
+</body>
+</html>
