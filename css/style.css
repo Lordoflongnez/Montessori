@@ -10,6 +10,7 @@ header {
     background: url(./../img/IMG_3463.JPG) no-repeat 50% 50%;
     background-size: cover;
 }
+
 .content {
     width: 94%;
     margin: 4em auto;
@@ -64,7 +65,7 @@ nav ul li a {
     font-size: 16px;
 }
 
-.menu {
+.menu-icon {
     line-height: 60px;
     width: 100%;
     background: #000;
@@ -74,4 +75,20 @@ nav ul li a {
     cursor: pointer;
     color: #fff;
     display: none;
+}
+
+.nom {
+    
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 40%;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 0;
+    top: 13em;
+    margin: 0 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
