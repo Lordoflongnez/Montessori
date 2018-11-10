@@ -10,3 +10,9 @@ header {
     background: url(../../img/crayons-1209804_1920.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    z-index: 1;
+}
