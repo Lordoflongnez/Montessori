@@ -106,6 +106,7 @@ nav ul li a {
     width: 40%;
     height: 250px;
     background-color: rgba(0,0,0,0.5);
+    color: #fff; 
     z-index: 0;
     top: 13em;
     margin: 0 30%;
@@ -121,6 +122,24 @@ nav ul li a {
 .map-frame{
     width: 100%
 }
+
+.text {
+    background-color: silver;
+}
+
+.des{
+    text-align: center;
+    margin-top: 50px;   
+}
+
+.maria {
+    width: 100%;
+}
+
+.desma{
+    margin-top: 55px;
+}
+
 @media(max-width: 786px) {
     
     .logo {
