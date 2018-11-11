@@ -114,6 +114,13 @@ nav ul li a {
     text-align: center;
 }
 
+.map {
+    background-color: gray;
+}
+
+.map-frame{
+    width: 100%
+}
 @media(max-width: 786px) {
     
     .logo {

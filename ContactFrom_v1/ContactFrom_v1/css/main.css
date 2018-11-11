@@ -131,7 +131,7 @@ iframe {
 .contact1 {
   width: 100%;
   min-height: 100%;
-  padding: 15px;
+  padding: 100px 15px 100px 15px;
   
   background: rgb(88,88,88);
   
@@ -314,7 +314,13 @@ textarea.input1 + .shadow-input1 {
   transform: translateX(10px);
 }
 
+.map {
+  background-color: gray;
+}
 
+.map-frame{
+  width: 100%
+}
 
 
 /*------------------------------------------------------------------
@@ -455,7 +461,7 @@ nav {
   position: fixed;
   width: 100%;
   line-height: 60px;
-  z-index: 1;
+  z-index: 10;
 }
 
 nav ul {
