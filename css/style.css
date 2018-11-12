@@ -7,28 +7,28 @@ html, body {
 .page1 {
     width: 100%;
     height: 100vh;
-    background: url(./../img/IMG_3463.JPG) no-repeat 50% 50%;
+    background: url(./../images/IMG_3463.JPG) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .page2 {
     width: 100%;
     height: 100vh;
-    background: url(./../img/Food\ Bookend\ Support\ Cereal\ Fruit\ -\ 2305x1536.jpg) no-repeat 50% 50%;
+    background: url(./../images/Food\ Bookend\ Support\ Cereal\ Fruit\ -\ 2305x1536.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .page3 {
     width: 100%;
     height: 100vh;
-    background: url(./../img/IMG_3612.JPG) no-repeat 50% 50%;
+    background: url(./../images/IMG_3612.JPG) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .page4 {
     width: 100%;
     height: 100vh;
-    background: url(./../img/application-1756279_1920.jpg) no-repeat 50% 50%;
+    background: url(./../images/application-1756279_1920.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -88,10 +88,15 @@ nav ul li a {
     text-decoration: none;
     font-size: 16px;    
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 13px;
     color: beige;
 }
+
+.tarif{
+    padding: 10px 32px 10px 32px;
+}
+
 nav:hover a {
     background-color: #1e334580;
  
@@ -149,12 +154,57 @@ a:hover {
 
 .maria {
     width: 100%;
+    border-radius: 50%;
+}
+
+.sens{
+    width: 100%;
+    border-radius: 11%;
 }
 
 .desma{
     margin-top: 55px;
 }
-    
+
+.sens {
+    width: 100%;
+}
+
+.activité {
+    background-color:	#696969;
+}
+
+.planète {
+    width: 100%;
+    height: 100%;
+}
+
+.activité2 {
+    background-color: 	#A9A9A9;
+}
+
+.continent {
+    width: 100%;
+    height: 100%;
+}
+
+.activité3 {
+    background-color: 	#D0D0D0;        
+}
+
+.tlt {
+    text-align: center;
+    background-color: #000;
+    color: beige;
+    padding: 10px 20px;
+    border-radius: 13px;
+    margin-top: 10px;
+
+}
+.tl {
+    background-color: silver;
+}
+
 @media(max-width: 786px) {
     
     .logo {
