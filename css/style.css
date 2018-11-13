@@ -25,13 +25,6 @@ html, body {
     background-size: cover;
 }
 
-.page4 {
-    width: 100%;
-    height: 100vh;
-    background: url(./../images/application-1756279_1920.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-
 .content {
     width: 94%;
     margin: 4em auto;
@@ -76,29 +69,29 @@ nav ul {
 }
 
 nav.black ul {
-    background: #000;
+    background: #000 !important;
 }
 
 nav ul li {
-    display: inline-block;
-    padding: 6px 30px;
+    display: inline-block !important;
+    padding: 6px 30px !important;
 }
 
 nav ul li a {
-    text-decoration: none;
-    font-size: 16px;    
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 13px;
-    color: beige;
+    text-decoration: none !important;
+    font-size: 16px !important;    
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    border-radius: 13px !important;
+    color: beige !important;
 }
 
 .tarif{
-    padding: 10px 32px 10px 32px;
+    padding: 10px 32px 10px 32px !important;
 }
 
 nav:hover a {
-    background-color: #1e334580;
+    background-color: #1e334580 !important;
  
 }
 
