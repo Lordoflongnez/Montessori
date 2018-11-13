@@ -205,6 +205,15 @@ a:hover {
     background-color: silver;
 }
 
+.footer {
+    background-color: #000;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 5px;
+}
+
 @media(max-width: 786px) {
     
     .logo {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -55,48 +55,15 @@
             </div>
         </div> 
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-        <div class="container-fluid map">
-            <div class="row">
-                <div class="col-12 col-xl-8">
-                    <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5086.232609309168!2d2.863400078996489!3d50.40167004582885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf144f84198cb24ae!2sMairie+de+M%C3%A9ricourt!5e0!3m2!1sfr!2sfr!4v1541937783521" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-                <div class="col-12 col-xl-4">
-                    <h2>Mon adresse</h2>
-                    <address>
-                        <p>
-                            <strong>????????</strong><br>
-                            ??????<br>
-                            ??????<br>
-                            ??????<br>
-                            ??????<br>
-                            ??????<br>
-                            Tel: 01 23 45 67 89
-                        </p>
-                    </address>
-                </div>
-            </div>
-        </div>
-        <script type="text/javascript">
-            
-            // Menu button
-            
-            $(document).ready(function() {
-                $(".menu-icon").on("click", function() {
-                    $("nav ul").toggleClass("showing");
-                });
-            });
-            
-            // Scroll
-            
-            $(window).on("scroll", function() {
-                if($(window).scrollTop()) {
-                    $('nav').addClass('black');
-                }
-                
-                else {
-                    $('nav').removeClass('black');
-                }
-            }) 
-        </script>
-    </body>
-    </html>
+        <footer>
+            <div class="container-fluid footer">
+                <div class="row">
+                    <div class="col-12 col-xl-12">
+                        <p class="copy" >&copy; 2018, Dacquignie Matthias<p>
+                        </div>
+                    </div>
+                </div> 
+            </footer>
+            <script src="js/main.js"></script>
+        </body>
+        </html>
